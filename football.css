@@ -1,0 +1,179 @@
+.football{
+
+  display: flex;  
+  
+}
+.football_item img{
+width:100%;
+
+
+}
+.head{
+
+    margin:20px;
+}
+.head_item{
+
+    text-align: center;
+}
+.product {
+    display: flex;
+    margin-top: 100px;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0px 50px;
+}
+
+.product_item {
+    width: 350px;
+    height: 300px;
+    position: relative;
+
+
+}
+
+
+
+
+.product_item button {
+    position: absolute;
+    bottom: 30px;
+    right: 17%;
+    height: 50px;
+    width: 190px;
+    border-radius: 10px;
+    color: rgb(243, 240, 240);
+    background-color:rgba(1, 7, 11, 0.89);
+    display: none;
+}
+
+.product_item:hover button {
+    display: block;
+}
+.product_item_rate {
+    text-align: center;
+    font-family: times new roman;
+    font-size: 30px;
+
+
+
+}
+
+.product_item_rs {
+    text-align: center;
+    font-family: cursive;
+
+
+
+
+}
+
+del {
+    color: rgba(232, 12, 107, 0.943);
+
+}
+.all {
+
+    margin: 60px;
+
+}
+
+.view {
+    text-align: center;
+    margin-top: 100px;
+
+
+
+}
+
+.view a {
+
+    text-decoration: none;
+    text-align: right;
+
+    padding: 15px;
+    color: whitesmoke;
+
+    background-color: black;
+    border-radius: 10px;
+
+}
+.best img {
+
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 0px;
+    transition:background-color 1.5s, font-size 3s, transform 1s;
+}
+
+.best {
+
+    display: flex;
+}
+
+.best1 {
+
+    display: flex;
+}
+
+.best1 img {
+    width: 50%;
+    height: 50%;
+    transition:background-color 1.5s, font-size 3s, transform 1s;
+    
+
+}
+.best :hover{
+
+    transform: scale(1.1);
+}
+.best1 :hover{
+
+    transform: scale(1.1);
+}
+.advers{
+margin-top: 100px;
+width:100%;
+background-attachment: fixed;
+
+
+}
+.advers :hover img{
+color: rgb(17, 197, 29);
+
+
+}
+.tittle {
+
+    position: sticky;
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+
+
+
+}
+
+
+.head_item a {
+    color: rgb(0, 3, 6);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    font-style:bold;
+  
+    color:black;
+
+
+}
+.head_item {
+
+    display: inline;
+    padding: 0px 10px;
+
+}

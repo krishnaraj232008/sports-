@@ -4,15 +4,16 @@
     padding: 0px 10px;
 
 }
+
 .tittle {
-    
+
     position: sticky;
     text-align: center;
-padding: 20px;
-width: 100%;
+    padding: 20px;
+    width: 90%;
 
 
-   
+
 }
 
 
@@ -21,7 +22,7 @@ width: 100%;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 15px;
-    
+
 
 }
 
@@ -50,7 +51,7 @@ width: 100%;
 .product_item button {
     position: absolute;
     bottom: 60px;
-    right: 19%;
+    right: 17%;
     height: 50px;
     width: 190px;
     border-radius: 10px;
@@ -62,14 +63,16 @@ width: 100%;
 .product_item:hover button {
     display: block;
 }
-.new{
+
+.new {
 
     display: flex;
     justify-content: end;
-    
-    
+
+
 }
-.new a{
+
+.new a {
     border: 1px solid black;
     margin: 20px;
     border-radius: 8px;
@@ -79,41 +82,150 @@ width: 100%;
 
 
 }
-.product_item_rate{
-text-align: center;
-font-family: times new roman;
-font-size: 30px;
+
+.product_item_rate {
+    text-align: center;
+    font-family: times new roman;
+    font-size: 30px;
 
 
 
 }
-.product_item_rs{
+
+.product_item_rs {
     text-align: center;
     font-family: cursive;
+
+
+
+
+}
+
+del {
+    color: rgba(232, 12, 107, 0.943);
+
+}
+
+.view {
+    text-align: center;
+    margin-top: 100px;
+
+
+
+}
+
+.view a {
+
+    text-decoration: none;
+    text-align: right;
+
+    padding: 15px;
+    color: whitesmoke;
+
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.new_item_item {
+    margin-left: 70px;
+
+
+
+}
+
+.all {
+
+    margin: 70px;
+
+}
+
+.children img {
+
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.best img {
+
+    width: 50%;
+    height: 50%;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.best {
+
+    display: flex;
+}
+
+.best1 {
+
+    display: flex;
+    
+}
+
+.best1 img {
+    width: 50%;
+    height: 50%;
     
 
+}
+
+.extra {
+    display: flex;
+
 
 
 }
-del{
-color: red;
+
+
+
+
+
+.extra img {
+
+    width: 40%;
+    margin: 40px;
+    transition:background-color 1.5s, font-size 3s, transform 1s;
+
+
+
+
+
 
 }
-.view{
+.extra  :hover{
+transform: scale(1.1);
+
+}
+
+.siva{
 text-align: center;
 
-padding: 120px;
+}
+.siva a{
+text-align: center;
+border: 1px solid green;
+border-radius: 100px;
+padding: 4px;
 
 
 }
-.view a{
 
-text-decoration: none;
-text-align: right;
+.siva a:hover,.siva a:active{
+color:rgb(17, 199, 69);
 
-padding: 10px;
-color: rgb(86, 240, 124);
-
-background-color:black ;
 
 }
+
+
+
+
+
+
+
+
+
