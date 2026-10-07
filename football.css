@@ -12,7 +12,7 @@ width:100%;
 
     margin:20px;
 }
-.head_item{
+.head_item1{
 
     text-align: center;
 }
@@ -148,6 +148,14 @@ color: rgb(17, 197, 29);
 
 
 }
+.head_item {
+
+    display: inline;
+    padding: 0px 10px;
+    text-align: center;
+
+}
+
 .tittle {
 
     position: sticky;
@@ -163,17 +171,14 @@ color: rgb(17, 197, 29);
 .head_item a {
     color: rgb(0, 3, 6);
     text-decoration: none;
-    font-family: monospace;
+    font-family: sans-serif;
     font-size: 15px;
-    font-style:bold;
-  
-    color:black;
 
 
 }
-.head_item {
+.head_item_item1{
+text-align: left;
 
-    display: inline;
-    padding: 0px 10px;
+list-style-type: none;
 
 }
