@@ -108,7 +108,7 @@ del {
     height: 50%;
     margin-top: 100px;
     margin-left: 0px;
-    transition:background-color 1.5s, font-size 3s, transform 1s;
+    transition:transform 1s;
 }
 
 .best {
@@ -124,22 +124,22 @@ del {
 .best1 img {
     width: 50%;
     height: 50%;
-    transition:background-color 1.5s, font-size 3s, transform 1s;
+    transition: transform 1s;
     
 
 }
 .best :hover{
 
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .best1 :hover{
 
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .advers{
 margin-top: 100px;
 width:100%;
-background-attachment: fixed;
+
 
 
 }
@@ -159,8 +159,11 @@ color: rgb(17, 197, 29);
 
     position: sticky;
     text-align: center;
-    padding: 20px;
-    width: 90%;
+    padding-bottom: 10px;
+    width:100%;
+    top: 0px;
+    background-color: white;
+    z-index:2 ;
 
 
 
@@ -179,4 +182,60 @@ color: rgb(17, 197, 29);
 text-align: left;
 
 list-style-type: none;
+margin-top: 0px;
+height: 70px;
+width: 70px;
 }
+.footer {
+background: #111827;
+color: #fff;
+padding: 35px 7% 18px;
+margin-top: 50px;
+font-family: Arial, sans-serif;
+}
+
+.footer-main {
+display: flex;
+justify-content: space-between;
+}
+
+.brand h2 {
+font-size: 22px;
+letter-spacing: 1px;
+margin: 0 0 12px;
+}
+
+.brand h2 span {
+color: #f59e0b;
+}
+
+.brand p {
+color: #cbd5e1;
+font-size: 14px;
+}
+
+.footer-links h3 {
+font-size: 15px;
+margin: 0 0 14px;
+}
+
+.footer-links a {
+display: block;
+color: #cbd5e1;
+text-decoration: none;
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+color: #f59e0b;
+}
+
+
+
+.bottom p {
+color: #9ca3af;
+font-size: 12px;
+margin: 0;
+}
+
