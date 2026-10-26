@@ -94,7 +94,7 @@ width: 70;
 }
 
 .thumbnail-container img {
-    width: 60%;
+    width: 30%;
     height: 120px;
 
     object-fit: cover;

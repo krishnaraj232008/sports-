@@ -98,33 +98,10 @@ del {
 
 }
 
-.view {
-    text-align: center;
-    margin-top: 100px;
 
 
 
-}
 
-.view a {
-
-    text-decoration: none;
-    text-align: right;
-
-    padding: 15px;
-    color: whitesmoke;
-
-    background-color: black;
-    border-radius: 10px;
-
-}
-
-.new_item_item {
-    margin-left: 70px;
-
-
-
-}
 
 .all {
 
@@ -181,7 +158,7 @@ del {
 
     width: 40%;
     margin: 40px;
-    transition:b transform 1s;
+    transition: transform 2s;
 
 
 
@@ -214,7 +191,7 @@ width: 70;
 .last img{
 
 width:100%;
-z-index: 100;
+
 
 
 }
@@ -230,9 +207,9 @@ font-family: Arial, sans-serif;
 .footer-main {
 display: flex;
 justify-content: space-between;
-gap: 30px;
 
-padding-bottom: 25px;
+
+;
 }
 
 .brand h2 {
